@@ -29,11 +29,11 @@ function Hero({ }: Props) {
                 <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[10px]'>Software Engineer</h2>
                 <h1 className='text-5xl lg:text-6xl font-semibold px-10'>
                     <span className='mr-3'>{text}</span>
-                    <Cursor cursorColor='yello' />
+                    <Cursor cursorColor='#F7AB0A' />
                 </h1>
 
                 <div className='pt-5'>
-                    <Link href={"/about"}>
+                    <Link href={"#about"}>
                         <button className='heroButton'>About</button>
                     </Link>
                     <Link href={"/about"}>
